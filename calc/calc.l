@@ -5,13 +5,14 @@
 
 %%
 
-[- ][0-9]+ {yylval.val = atoi(yytext); return NUM;}
+([^0-9][\s]*-[\s]*)?[0-9]+ 	{yylval.val = atoi(yytext); return NUM;} 
+
 \+ return PLUS;
-- return MINUS;
+\- return MINUS;
 \( return LPAR;
 \) return RPAR;
 
-\n return 0;
+. ; 
 
 %%
 
