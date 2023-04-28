@@ -1,0 +1,9 @@
+Compilation Construction
+Grammar Analysis Algorithms (rehash)
+Check if nonterminal A can derive epsilon
+
+Set of terminal symbols First(alpha) that can begin a sentential form derivable from the string of sumbols alpha
+{c : alpha => c beta}
+
+Set of terminal symbols Follow(A) that can follow a nonterinal symbol A in some sentential form
+{c : S ()DETELEDFDSJFJSDL KFJ}
